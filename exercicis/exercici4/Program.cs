@@ -10,7 +10,28 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quin article vol comprar?");
+        string preu = Console.ReadLine();
+    
+
+        Console.WriteLine("Quants euros val el producte?");
+
+        float pessetes = 166.386f;
+        
+        var euros = Console.ReadLine();
+        int price = Convert.ToInt16(euros);
+
+
+        Console.WriteLine("El producte és" + " " + preu + "." + "En euros és" + " " + euros + ",");
+
+
+        Console.WriteLine(" En pessetes és" + " " + price*pessetes);
+
+
+
+
+
+
         
     }
 }

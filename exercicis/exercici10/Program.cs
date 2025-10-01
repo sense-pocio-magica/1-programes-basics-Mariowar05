@@ -8,6 +8,14 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Quin és el teu nom?");
+        var nom = Console.ReadLine();
+
+        Console.WriteLine("I el teu any de naixement?");
+        var any = Console.ReadLine();
+        int Any = Convert.ToInt16(any);
+
+        Console.WriteLine("La teva contrasenya és " + nom + Any);
+    
     }
 }
