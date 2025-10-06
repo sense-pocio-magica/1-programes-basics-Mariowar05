@@ -6,6 +6,22 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Aquest producte es");
+        var producte = Console.ReadLine();
+
+        Console.WriteLine("El seu preu és");
+        var preu = Console.ReadLine();
+        int número = Convert.ToInt16(preu);
+
+        bool no = false ;
+        //var not = Console.ReadLine(no);
+
+        Console.WriteLine("Aquest producte es " + producte + ", " + "el seu preu és" + " " + preu + "." );
+        Console.WriteLine("Hi ha stock?" + " " + no + "."); 
+
+
+
+
+
     }
 }
