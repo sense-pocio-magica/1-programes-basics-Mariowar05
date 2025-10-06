@@ -27,6 +27,33 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Introdueix el primer número, és el 3");
+        var num1 = Console.ReadLine();
+        int Num1 = Convert.ToInt16(num1);
+
+        Console.WriteLine("Introdueix el segón número, és el 4");
+        var num2 = Console.ReadLine();
+        int Num2 = Convert.ToInt16(num2);
+
+        Console.WriteLine("Introdueix el primer número, és el 25");
+        var num3 = Console.ReadLine();
+        int Num3 = Convert.ToInt16(num3);
+
+        Console.WriteLine("Introdueix el segón número, és el 5");
+        var num4 = Console.ReadLine();
+        int Num4 = Convert.ToInt16(num4);
+
+
+        Console.WriteLine("La suma és " + (Num1 + Num2) + ", la resta és " + (Num1 - Num2));
+        Console.WriteLine("La multiplicació és " + (Num1 * Num2) + ", i la divisió és " + (Num1 / Num2));
+
+        Console.WriteLine("La suma és " + (Num3 + Num4) + ", la resta és " + (Num3 - Num4));
+        Console.WriteLine("La multiplicació és " + (Num3 * Num4) + ", i la divisió és " + (Num3 / Num4));
+
+
+
+
+
+
     }
 }

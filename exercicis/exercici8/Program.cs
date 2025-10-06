@@ -7,22 +7,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Quina hora és?");
+        Console.WriteLine("Quants minuts hi vols?");
         var Hora = Console.ReadLine();
         int Hour = Convert.ToInt16(Hora);
 
-        Console.WriteLine("I quants minuts?");
-        var Minuts = Console.ReadLine();
-        int Minutes = Convert.ToInt16(Minuts);
-
-        int Dia = 24;
-
         int dia = 60;
 
-        int resulH = Dia - Hour;
-        int resulM = dia - Minutes;
+        int resulH = Hour/dia;
+        int resulM = Hour % 60;
 
-        Console.WriteLine("Ara són lés" + " " + resulH + ", amb " + resulM + " " + "minuts");
+        Console.WriteLine("N'hi han " + resulH + " " + "hores senceres" + ", amb" + resulM +"minuts" );
 
 
     }
